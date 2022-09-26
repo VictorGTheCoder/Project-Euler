@@ -9,13 +9,16 @@ int main(int argc, char const *argv[])
     int year = 1900;
     int count = 0;
 
-    while (year < 1920)
+    while (year < 2001)
     {
         month = 1;
         while (month <= 12)
         {
-            if (day % 7 == 0)
+            if ((day - 1) % 7 == 0)
+            {
+                printf("Year %d / Month %d / Day %d Jour Total : %d\n", year, month, dayofthemonth, day);
                 count++;
+            }
             if (month == 2)
             {
                 if (year % 4 == 0)
@@ -53,10 +56,10 @@ int main(int argc, char const *argv[])
                     day++;
                     dayofthemonth++;
                 }
-                dayofthemonth == 1;
             }
-            printf("Year %d / Month %d / Day %d     Jour Total : %d\n", year, month, dayofthemonth, day);
-            dayofthemonth == 1;
+            
+            //printf("Year %d / Month %d / Day %d Jour Total : %d\n", year, month, dayofthemonth, day);
+            dayofthemonth = 1;
             month++;
             
         }
