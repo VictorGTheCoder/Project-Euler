@@ -1,12 +1,12 @@
 
 paths =  [[]]
-with open("p067_triangle.txt", "r") as f:
+with open("text_files/p067_triangle.txt", "r") as f:
     paths = [line.split() for line in f]
     print(paths)
     paths = [[int(i) for i in row] for row in paths]
     print(paths)
 
-f2 = open("result.txt", "w")
+f2 = open("text_files/result.txt", "w")
 for p in paths:
     for c in p:
         f2.write(str(c))
