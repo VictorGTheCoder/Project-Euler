@@ -8,9 +8,9 @@ def d(n):
 
 
 
-#n < d(n) = abundant number
-#n = d(n) = perfect number
-#n > d(n) = deficient number
+#n < d(n) : abundant number
+#n = d(n) : perfect number
+#n > d(n) : deficient number
 
 abundant_nb = []
 
@@ -23,7 +23,6 @@ def generating_list_of_abundant_number(i): #until n
 
 generating_list_of_abundant_number(28123)
 print(abundant_nb)
-print(d(7874))
 
 def is_the_sum_of_two_abundants(nb):
     for nb1 in abundant_nb:
