@@ -1,4 +1,3 @@
-
 with open("text_files/p022_names.txt", "r") as f:
     list = f.read().split(",")
 
