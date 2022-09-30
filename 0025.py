@@ -14,8 +14,6 @@ def do_contain1000digits(n):
         return 1
     return 0
 
-
-
 def fibo(n):
     result = 0
     nb1 = 0
@@ -28,7 +26,6 @@ def fibo(n):
         result += nb2
         i += 1
     return result + 2
-
 
 ##TEST for fibonacci iterative and recursive : iterative is way faster O(n) vs O(n^2)
 #start_time = time.time()
