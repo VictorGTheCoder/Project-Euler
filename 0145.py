@@ -1,4 +1,3 @@
-from audioop import reverse
 
 
 def areAllDigitsOdd(n):
@@ -25,11 +24,22 @@ def isReverse(n):
     return 0
 
 count = 0
-for k in range (4):
-    count = 0
-    for i in range(10**k):
-        if isReverse(i):
-            print(i)
-            count += 1
-    print(count)
-#134
+for i in range(10**6):
+    if isReverse(i):
+        count += 1
+print(count)
+#0
+#20
+#120
+#720
+#720
+#18720
+#68720
+
+#0
+#14
+#40
+#540
+#720
+#13320
+#28720
