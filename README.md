@@ -10,5 +10,5 @@ All problems are solved in C or Python.
 
 You can use it by simply clone this repository on your local machine like this
 ```bash
-git clone https://github.com/your_username/Project-Euler.git
+git clone https://github.com/IAmVictorG/Project-Euler.git
 ```
