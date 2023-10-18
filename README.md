@@ -2,7 +2,7 @@
 
 This repository contains my C language solutions for the problems on the Project Euler website (https://projecteuler.net).
 
-Each problem is solved in a separate file named XXXX.c, where "XXXX" is the problem number. The solutions include comments to explain the solving process and the logic used.
+Each problem is solved in a separate file named XXXX.c, where "XXXX" is the problem number.
 
 All problems are solved in C or Python. 
 
